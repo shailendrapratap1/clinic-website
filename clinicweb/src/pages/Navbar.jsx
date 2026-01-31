@@ -30,10 +30,10 @@ const Navbar = () => {
         ))}
           </div>
                 <div className='hidden md:flex gap-5'>
-<button className=" bg-sky-100 text-sky-500 font-semibold text-xl px-4 py-2 rounded-4xl md:w-26 border border-blue-300 cursor-pointer">
+<button className=" bg-sky-100 text-sky-500 font-semibold text-xl px-4 py-2 rounded-4xl md:w-26 border border-blue-300 cursor-pointer" >
   Log in
 </button>
-<button className=" bg-sky-500 text-white font-semibold text-xl px-4 py-2 rounded-4xl md:w-26 border border-blue-300 cursor-pointer">
+<button className=" bg-sky-500 text-white font-semibold text-xl px-4 py-2 rounded-4xl md:w-26 border border-blue-300 cursor-pointer"onClick={()=> <Link to='/signup'></Link>}>
 sign up
 </button>
 </div>
