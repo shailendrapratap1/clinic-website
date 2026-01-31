@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
- <section className='min-h-100 mx-auto  bg-linear-to-r from-sky-100 '>
+ <section className=' min-h-100 mx-auto left-0 right-0 bg-linear-to-r from-sky-100 '>
     <div className='flex flex-1 flex-col md:pt-20 pt-40 pl-15 '>
       <h2 className='text-black text-4xl font-bold md:text-5xl md:pr-40'>Find & search your </h2>
       <span className='text-blue-500  font-bold md:text-5xl text-3xl'>favourite <span className='text-black  '>Doctor</span> </span>
@@ -13,7 +13,7 @@ const Hero = () => {
 <div className='md:flex md:flex-row flex flex-col'>
 
 
-          <form action="/search" className='md:mt-30  md:ml-10  w-100 h-10 rounded-2xl mt-5 ml-4 bg-white md:mb-100'
+          <form action="/search" className='md:mt-30  md:ml-10  w-100 h-10 rounded-2xl mt-6 ml-4 bg-white md:mb-100 order-1 md:order-0 '
           >
             <div className='flex flex-row '>
                 <img src="./doct.svg" className='h-5  pl-4' alt="" />
@@ -22,7 +22,7 @@ const Hero = () => {
           <input type="text" name="" placeholder='area' className=''/>
         
           </div>
-   <div className=' bg-blue-500 md:flex md:flex-row md:mt-25 h-15 md:-ml-5 w-250 md:gap-15'>
+   <div className=' bg-blue-500 flex flex-col- md:flex md:flex-row  md:mt-25 h-15 md:w-250 md:gap-15 mt-20 sm:mt-3 rounded-xl '>
              <h2 className='text-white text-5xl font-bold pl-3'>24/7 <span className='text-5xl font-light text-'>|</span></h2>
                           <h2 className='text-white text-5xl font-bold pl-3'>24/7 <span className='text-5xl font-light text-'>|</span></h2>
 
