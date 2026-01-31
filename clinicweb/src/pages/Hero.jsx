@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
- <section className='min-h-screen bg-linear-to-r from-sky-100 '>
+ <section className='min-h-100 mx-auto  bg-linear-to-r from-sky-100 '>
     <div className='flex flex-1 flex-col md:pt-20 pt-40 pl-15 '>
       <h2 className='text-black text-4xl font-bold md:text-5xl md:pr-40'>Find & search your </h2>
       <span className='text-blue-500  font-bold md:text-5xl text-3xl'>favourite <span className='text-black  '>Doctor</span> </span>
@@ -13,19 +13,28 @@ const Hero = () => {
 <div className='md:flex md:flex-row flex flex-col'>
 
 
-          <form action="/search" className='md:mt-40  md:ml-10  w-100 h-10 rounded-2xl mt-5 ml-4 bg-white md:mb-100'
+          <form action="/search" className='md:mt-30  md:ml-10  w-100 h-10 rounded-2xl mt-5 ml-4 bg-white md:mb-100'
           >
             <div className='flex flex-row '>
                 <img src="./doct.svg" className='h-5  pl-4' alt="" />
           <input  type="text"  name="" placeholder='Doctor name' className=''/>
           
           <input type="text" name="" placeholder='area' className=''/>
+        
           </div>
+   <div className=' bg-blue-500 md:flex md:flex-row md:mt-25 h-15 md:-ml-5 w-250 md:gap-15'>
+             <h2 className='text-white text-5xl font-bold pl-3'>24/7 <span className='text-5xl font-light text-'>|</span></h2>
+                          <h2 className='text-white text-5xl font-bold pl-3'>24/7 <span className='text-5xl font-light text-'>|</span></h2>
 
+         </div>
           </form>
-                             <img src="./d.png" alt=""  className='ml-6 h-80 w-100 '/>
-
-      </div>
+              <img src="./d.png" alt=""  className=' ml-6 md:ml-15 md:pb-4 h-80 w-100 '/>
+          
+                         
+           
+   </div>
+ 
+       
 
       {/* <button className=" bg-sky-500 text-white font-semibold text-xl px-4 py-2 rounded-4xl md:w-26 border border-blue-300 cursor-pointer ml-40 mt-10">
 explore
