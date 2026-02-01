@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card } from '../components'
-    
+import {Check} from 'lucide-react'
 
 const about = [
 {
@@ -55,6 +55,21 @@ imageClass='h-5 w-15 rounded-xl mt-3 '
         
     ))
 }
+   </div>
+   <div className='flex flex-col md:flex md:flex-row pt-30  gap-5'>
+        <img src="./pexels-davegarcia-33916255.jpg" alt="" className='md:w-100 rounded-2xl ml-10 mt-5'/>
+        <div className='ml-10'>
+        <h2 className='ml-20 text-xl font-bold'>Why choose us</h2>
+        <ul className='flex flex-col gap-4 font-serif'>
+            <li  className=''><Check  className=' inline-flex  text-blue-500 text-sm font-serif'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li><Check  className=' inline-flex text-blue-500'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li><Check  className=' inline-flex  text-blue-500 text-sm font-serif'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li><Check  className=' inline-flex  text-blue-500 text-sm font-serif'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li><Check  className=' inline-flex  text-blue-500 text-sm font-serif'/>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+             <li className='ml-5 mt-5 text-blue-500 underline cursor-pointer'>Learn more</li>
+        </ul>
+        
+        </div>
    </div>
    </div>
  </section>
