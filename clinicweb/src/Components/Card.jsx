@@ -2,6 +2,7 @@ const Card = ({
   image,
   title,
   description,
+  text,
   children,
   className = "",
   imgclass = "",
@@ -21,6 +22,11 @@ const Card = ({
             className={`${imageClass} `}
             // className={imageClass}
           />
+        </div>
+      )}
+      {text && (
+        <div>
+          
         </div>
       )}
 
