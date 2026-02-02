@@ -3,6 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
  <section className=' min-h-screen mx-auto left-0 right-0 bg-linear-to-r from-sky-100 to-sky-300 '>
+    <div className='left-0 right-0 top-0'>
     <div className='flex flex-1 flex-col md:pt-20 pt-40 pl-15 '>
       <h2 className='text-black text-4xl font-bold md:text-5xl md:pr-40'>Find & search your </h2>
       <span className='text-blue-500  font-bold md:text-5xl text-3xl'>favourite <span className='text-black  '>Doctor</span> </span>
@@ -34,7 +35,7 @@ const Hero = () => {
            
    </div>
  
-       
+       </div>
 
       {/* <button className=" bg-sky-500 text-white font-semibold text-xl px-4 py-2 rounded-4xl md:w-26 border border-blue-300 cursor-pointer ml-40 mt-10">
 explore
