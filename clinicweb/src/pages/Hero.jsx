@@ -16,11 +16,11 @@ const Hero = () => {
 
           <form action="/search" className='md:mt-30  md:ml-10 w-75 md:w-100 h-10 rounded-2xl mt-6 ml-4 bg-white md:mb-100 order-1 md:order-0 '
           >
-            <div className='flex flex-row '>
+            <div className='flex flex-row gap-5'>
                 <img src="./doct.svg" className='h-5  pl-4' alt="" />
-          <input  type="text"  name="" placeholder='Doctor name' className=''/>
+          <input  type="text"  name="" placeholder='Doctor name' className='w-20'/>
           
-          <input type="text" name="" placeholder='area' className=''/>
+          <input type="text" name="" placeholder='area' className='w-20'/>
         
           </div>
    <div className=' bg-blue-500 flex flex-row md:flex md:flex-row  md:mt-25  h-15 md:w-150 md:gap-15 mt-20 sm:mt-3 rounded-xl w-75'>
