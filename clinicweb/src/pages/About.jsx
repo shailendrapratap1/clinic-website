@@ -43,7 +43,7 @@ const About = () => {
 {
     about.map((about,index)=> (
         <Card
-        className='w-90 ml-5 md:w-80 md:h-60 rounded-xl bg-white text-gray-400 font-serif text-[18px] h-43 px-3 border border-gray-500 hover:bg-blue-400 ' key={index}
+        className=' ml-5 md:w-80 md:h-60 rounded-xl bg-white text-gray-400 font-serif text-[18px] h-43 px-3 border border-gray-500 hover:bg-blue-400 ' key={index}
             imgclass='h-6 bg-blue-200 w-7 rounded-md md:mt-5 md:ml-7'
 imageClass='h-5 w-15 rounded-xl mt-3 '
         titleClass=' text-xl font-semibold text-blue-300 '
