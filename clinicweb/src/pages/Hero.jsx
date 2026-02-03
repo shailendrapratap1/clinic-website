@@ -2,8 +2,8 @@ import React from 'react'
 
 const Hero = () => {
   return (
- <section className=' min-h-screen mx-auto left-0 right-0 bg-linear-to-r from-sky-100 to-sky-300 '>
-    <div className='left-0 right-0 top-0'>
+ <section className=' min-h-screen left-0 right-0  bg-linear-to-r from-sky-100 to-sky-300 '>
+    <div className=''>
     <div className='flex flex-1 flex-col md:pt-20 pt-40 pl-15 '>
       <h2 className='text-black text-4xl font-bold md:text-5xl md:pr-40'>Find & search your </h2>
       <span className='text-blue-500  font-bold md:text-5xl text-3xl'>favourite <span className='text-black  '>Doctor</span> </span>

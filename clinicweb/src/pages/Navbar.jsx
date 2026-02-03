@@ -14,7 +14,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 h-[40px]  flex items-start justify-between px-8 z-100  bg-linear-to-r from-sky-100 to-sky-300 ">
+    <nav className="fixed top-0 left-0 right-0 h-[50px]  flex items-start justify-between px-8 z-100  bg-linear-to-r from-sky-100 to-sky-300 ">
       <h2 className="text-black text-2xl font-bold no-underline">E-<span className='text-sky-600'>Sheba</span></h2>
 
       <div className="hidden md:flex gap-8 items-center">
