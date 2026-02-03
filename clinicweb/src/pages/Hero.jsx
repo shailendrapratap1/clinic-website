@@ -23,7 +23,7 @@ const Hero = () => {
           <input type="text" name="" placeholder='area' className=''/>
         
           </div>
-   <div className=' bg-blue-500 flex flex-col- md:flex md:flex-row  md:mt-25 h-15 md:w-250 md:gap-15 mt-20 sm:mt-3 rounded-xl '>
+   <div className=' bg-blue-500 flex flex-col- md:flex md:flex-row  md:mt-25  h-15 md:w-150 md:gap-15 mt-20 sm:mt-3 rounded-xl '>
              <h2 className='text-white text-5xl font-bold pl-3'>24/7 <span className='text-5xl font-light text-'>|</span></h2>
                           <h2 className='text-white text-5xl font-bold pl-3'>24/7 <span className='text-5xl font-light text-'>|</span></h2>
 

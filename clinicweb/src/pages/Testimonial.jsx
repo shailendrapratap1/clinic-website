@@ -12,19 +12,19 @@ const Testimonial = () => {
       <p className='pt-5 text-xl font-semibold '>Lorem ipsum dolor, sit amet consectetur .</p>
       <p className=' text-xl font-semibold'>adipisicing elit. Vero, veritatis</p>
         </div>
-             <div className='flex flex-row md:flex md:flex-row   pt-15 -ml-10 md:ml-0'>
+             <div className='flex flex-row md:flex md:flex-row   pt-15 -ml-1 md:ml-0'>
            <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl  h-9 w-13 px-none' alt="" />
              <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl h-9 w-13' alt="" />
            <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl h-9 w-13' alt="" />
            <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl h-9 w-13' alt="" />
              <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl h-9 w-13' alt="" />
-        <p className='md:pl-5 text-xl font-bold'>500+ Reviews</p>
+        <p className='md:pl-5 text-xl font-bold '>500+ Reviews</p>
        
-           <Card className='md:w-120 w-100 border border-gray-500 bg-white h-60 md:ml-30  md:-mt-50 rounded-xl flex flex-row mt-50 -ml-105'>
+           <Card className='md:w-120 w-100 border border-gray-500 bg-white h-60 md:ml-19  md:-mt-50 rounded-xl flex flex-row mt-50 -ml-105'>
                            <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl h-9 w-13 mt-5 ml-3 ' alt="" />
-                            <h2 className='ml-20 -mt-7 text-md font-bold'>john doe</h2>
-                        <h className='pl-60 '>⭐ ⭐ ⭐ ⭐ ⭐ </h>
-                        <p className='text-gray-500 px-4 py-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatibus tempore dolore nobis praesentium eveniet voluptatem tempora totam eum sequi?</p>
+                            <h2 className='ml-20 -mt-9 text-md font-bold '>john doe</h2>
+                        <p className='ml-40 md:ml-50 md:mb-6'> ⭐ ⭐ ⭐  </p>
+                        <p className='text-gray-500 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatibus tempore dolore nobis praesentium eveniet voluptatem tempora totam eum sequi?</p>
                          
            </Card>
                     

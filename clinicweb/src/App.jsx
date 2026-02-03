@@ -5,6 +5,9 @@ import Navbar from './pages/Navbar'
 import Hero from './pages/Hero'
 import About from './pages/About'
 import Testimonial from './pages/Testimonial'
+import History from './pages/History'
+
+
 // import Signup from './pages/Signup'
 
 
@@ -16,6 +19,8 @@ function App() {
 <Hero />
 <About />
 <Testimonial />
+<History/>
+
 {/* <Signup /> */}
 
   </>
