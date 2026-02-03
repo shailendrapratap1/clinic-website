@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+    <section className='min-h-screen bg-white'>
+   
+    </section>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
- <section className=' min-h-screen left-0 right-0  bg-linear-to-r from-sky-100 to-sky-300 '>
+ <section className=' min-h-screen md:min-h-screen-1/2 left-0 right-0  bg-linear-to-r from-sky-100 to-sky-300 '>
     <div className=''>
     <div className='flex flex-1 flex-col md:pt-20 pt-40 pl-15 '>
       <h2 className='text-black text-4xl font-bold md:text-5xl md:pr-40'>Find & search your </h2>
