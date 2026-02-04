@@ -27,7 +27,7 @@ const sections = [
 
 const Footer = () => {
   return (
-    <footer className='h-120 mt-10  bg-blue-500'>
+    <footer className='min-h-screen mt-10  bg-blue-500'>
      <div className='md:flex md:flex-row flex flex-col md:px-20 md:py-15 px-2 md:gap-20'>
       <div className='flex flex-col  w-100 h-90 gap-8'>
         <h2 className='text-white font-medium text-4xl'>E-clinic</h2>
@@ -62,7 +62,12 @@ const Footer = () => {
             ))
            }
          </div>
+        
       </div>
+       <div className='flex flex-col'>
+          <h2 className='text-2xl text-white font-medium '>Address</h2>
+          <img src="./i.png" alt="" className='rounded-6xl ' />
+         </div>
      </div>
     </footer>
   )
