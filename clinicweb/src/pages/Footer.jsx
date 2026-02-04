@@ -28,8 +28,8 @@ const sections = [
 const Footer = () => {
   return (
     <footer className='min-h-screen mt-10  bg-blue-500'>
-     <div className='md:flex md:flex-row flex flex-col md:px-20 md:py-15 px-2 md:gap-20'>
-      <div className='flex flex-col  w-100 h-90 gap-8'>
+     <div className='md:flex md:flex-row flex flex-col md:px-20 md:py-15 px-2 md:gap-20 gap-5'>
+      <div className='flex flex-col   gap-8'>
         <h2 className='text-white font-medium text-4xl'>E-clinic</h2>
         <p className='text-gray-300 font-medium'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A officia beatae amet vitae odit sapiente odio rerum quo hic enim.</p>
         <p className='text-gray-300 font-medium'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, eveniet.</p>
@@ -64,11 +64,17 @@ const Footer = () => {
          </div>
         
       </div>
-       <div className='flex flex-col'>
+       <div className='flex flex-col pt-5'>
           <h2 className='text-2xl text-white font-medium '>Address</h2>
-          <img src="./i.png" alt="" className='rounded-6xl ' />
+          <img src="./i.png" alt="" className='h-80 w-240 rounded-r-[40px] rounded-l-[70px] rounded-e-[50px] rounded-bl-[90px] pt-5' />
          </div>
+       
      </div>
+     <div className='border mt-3  md:mx-20 h-0 text-white '>
+     </div>
+     <div className=''>
+           <h2 className='md:px-70 px-20 pb-4 text-gray-300 '>@2026 all rights reserved</h2>
+</div>
     </footer>
   )
 }
