@@ -11,11 +11,11 @@ const History = () => {
           <p className='text-gray-500 font-medium pt-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium exercitationem mollitia rerum ea vitae aperiam quis saepe quo possimus porro quae inventore vel, amet nostrum eos adipisci voluptatum minima! Temporibus hic doloremque illo nemo earum reiciendis itaque sint corrupti voluptas.</p>
           <h1 className='pt-5 pl-3 font-medium text-sky-500 cursor-pointer'>Learn more</h1>
          </div>
-                <div className='flex flex-col  md:w-120 md:h-90 h-70 w-75'>
+                <div className='flex flex-col  md:w-120 md:h-90  '>
 <img src="./o.jpg" className='h-90 w-120 rounded-2xl' alt="" />
          </div>
       </div>
-      <div className='bg-blue-500 md:h-70 ml-4 h-30 md:w-200 md:ml-15 rounded-2xl flex flex-col items-center  mt-30 w-70'>
+      <div className='bg-blue-500 md:h-70 ml-4 h-30 md:w-200 md:ml-15 rounded-2xl flex flex-col items-center  mt-30 '>
        <h2 className='md:pt-15 md:text-3xl pt-5 font-bold text-gray-100 md:pl-0'>Subscribe to our newsletter</h2>
         <div>
          <form action="/search" className='md:mt-7  md:ml-10 w-50 md:w-170  md:h-13 h-10 rounded-b-4xl rounded-e-4xl rounded-4xl   bg-white md:mb-100 order-1 md:order-0 '

@@ -9,7 +9,7 @@ const sections = [
    
    {
     title:'Home',
-    links:['home']
+    links:['/']
    } ,
    {
         title:' About us',
@@ -27,18 +27,24 @@ const sections = [
 
 const Footer = () => {
   return (
-    <footer className='min-h-screen mt-10  bg-blue-500'>
+    <footer className='min-h-screen-1/2  mt-20 bg-blue-500'>
      <div className='md:flex md:flex-row flex flex-col md:px-20 md:py-15 px-2 md:gap-20 gap-5'>
       <div className='flex flex-col   gap-8'>
         <h2 className='text-white font-medium text-4xl'>E-clinic</h2>
         <p className='text-gray-300 font-medium'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A officia beatae amet vitae odit sapiente odio rerum quo hic enim.</p>
         <p className='text-gray-300 font-medium'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, eveniet.</p>
-         <div className='flex flex-row gap-2'>
+         {/* <div className='flex flex-row gap-2'>
        <Facebook className='text-white h-10 w-10 cursor-pointer'><link rel="stylesheet" href="" /></Facebook> 
               < Instagram className='text-white h-10 w-10 cursor-pointer'><link rel="stylesheet" href="" /></Instagram> 
               <Twitter className='text-white h-10 w-10 cursor-pointer'><link rel="stylesheet" href="" /></Twitter> 
 
-</div>
+</div> */}
+    <div className="flex gap-4">
+                        <a href="#" className="hover:text-blue-400 transition-colors"><Facebook size={20} /></a>
+                        <a href="#" className="hover:text-blue-400 transition-colors"><Twitter size={20} /></a>
+                        <a href="#" className="hover:text-pink-500 transition-colors"><Instagram size={20} /></a>
+                        <a href="#" className="hover:text-blue-600 transition-colors"><Linkedin size={20} /></a>
+                    </div>
       </div>
 
       <div className='flex flex-col'>
@@ -70,10 +76,10 @@ const Footer = () => {
          </div>
        
      </div>
-     <div className='border mt-3  md:mx-20 h-0 text-white '>
+     <div className='border mt-3  md:md:mx-20 h-0 text-white '>
      </div>
      <div className=''>
-           <h2 className='md:px-70 px-20 pb-4 text-gray-300 '>@2026 all rights reserved</h2>
+           <h2 className='md:px-70 px-20 md:pb-4 text-gray-300 '>@2026 all rights reserved</h2>
 </div>
     </footer>
   )
