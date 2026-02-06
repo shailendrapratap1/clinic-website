@@ -5,9 +5,8 @@ import { Menu, X } from 'lucide-react';
 const navLinks = [
   { path: '/', label: 'Home' },
   { path: '/about', label: 'About' },
-  { path: '/features', label: 'Application' },
-  { path: '/History', label: 'History' },
-  { path: '/contact', label: 'Contact' }
+  { path: '/application', label: 'Application' },
+  { path: '/History', label: 'History' }
 ];
 
 const Navbar = () => {
@@ -28,16 +27,22 @@ const Navbar = () => {
           </Link>
           
         ))}
+        <div className='hidden md:flex gap-5'>
+          <Link
+          to="/login"
+          className=" bg-sky-100 text-sky-500 font-semibold text-xl px-4 py-2 rounded-4xl md:w-26 border border-blue-300 cursor-pointer"
+        >
+          Login
+        </Link>
+        <Link
+          to="/signup"
+          className="bg-sky-500 text-white font-semibold text-xl px-4 py-2 rounded-4xl md:w-26 border border-blue-300 cursor-pointer"
+        >
+          Sign up
+        </Link>
+        </div>
           </div>
-                <div className='hidden md:flex gap-5'>
-<button className=" bg-sky-100 text-sky-500 font-semibold text-xl px-4 py-2 rounded-4xl md:w-26 border border-blue-300 cursor-pointer" >
-  Log in
-</button>
-<button className=" bg-sky-500 text-white font-semibold text-xl px-4 py-2 rounded-4xl md:w-26 border border-blue-300 cursor-pointer"onClick={()=> <Link to='/signup'></Link>}>
-sign up
-</button>
-</div>
-    
+
        
 
      

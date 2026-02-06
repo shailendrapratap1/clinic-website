@@ -7,8 +7,9 @@ import About from './pages/About'
 import Testimonial from './pages/Testimonial'
 import History from './pages/History'
 import Footer from './pages/Footer'
+import Signup from './pages/Signup'
+// import Login from './pages/Login'
 
-// import Signup from './pages/Signup'
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
 <Testimonial />
 <History/>
 <Footer/>
+<Signup />
+{/* <Login /> */}
 
 {/* <Signup /> */}
 
