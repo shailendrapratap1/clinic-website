@@ -190,9 +190,7 @@ const Login = () => {
                         </div>
                     </div>
 
-                    {/* <Button variant="primary" type="submit" className="w-full justify-center">
-                        Sign In
-                    </Button> */}
+                   
                 </form>
 
                 <div className="mt-6 text-center text-sm text-gray-400">
