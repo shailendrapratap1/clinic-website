@@ -4,7 +4,7 @@ import { Star } from 'lucide-react'
 
 const Testimonial = () => {
   return (
-    <section className='md:h-150 min-h-screen-1/2 mx-auto left-0 right-0 bg-linear-to-r from-gray-200 to-purple-200'>
+    <section id='testimonial' className='md:h-150 min-h-screen-1/2 mx-auto left-0 right-0 bg-linear-to-r from-gray-200 to-purple-200'>
      <div className='grid grid-cols-1 grid-rows-1 pt-35 pl-20'>
         <div className='flex flex-col text-4xl font-bold'>
       <h2 className=' '>What <span className='text-blue-500'>our member's </span></h2>
