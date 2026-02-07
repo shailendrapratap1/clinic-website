@@ -1,16 +1,10 @@
-import React from 'react'
 import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
-const sections = [
-  { title: 'Home',         links: ['/'] },
-  { title: 'About',     links: ['/about'] },
-  { title: 'Testimonial', links: ['/testimonial'] },
-  { title: 'History',      links: ['/history'] },
-]
 
 const Footer = () => {
   return (
-    <footer className="min-h-screen-1/2 md:mt-20 bg-blue-500 mt-3">
+    <footer className="min-h-screen md:mt-20 bg-blue-500 bg-cover ">
       <div className="md:flex md:flex-row flex flex-col md:px-20 md:py-15 px-2 md:gap-20 gap-5">
         <div className="flex flex-col gap-8">
           <h2 className="text-white font-medium text-4xl">E-clinic</h2>
@@ -39,28 +33,20 @@ const Footer = () => {
 
         <div className="flex flex-col">
           <h2 className="text-white font-medium text-4xl">Useful Links</h2>
-          <div>
-            {sections.map(section => (
-              <div key={section.title}>
-                <h4 className="md:mt-5 text-gray-200 font-medium cursor-pointer">
-                  {section.title}
-                </h4>
-                <ul className="p-0 m-0 list-none">
-                  {section.links.map(link => (
-                    <li key={link} className="mb-2">
-                      <a href={link} className="no-underline text-blue-500 hover:underline">
-                        {link}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
+      <div>
+                    <ul className="space-y-2 text-sm">
+                        <li><Link to="/" className=" text-lg font-medium text-gray-300">Home</Link></li>
+                        <li><Link to="/about" className="text-lg font-medium text-gray-300 ">About</Link></li>
+                        <li><Link to="/testimonial" className="text-lg font-medium text-gray-300">Testimonial</Link></li>
+                        <li><Link to="/history" className="text-lg font-medium text-gray-300 ">History</Link></li>
+                    </ul>
+                </div>
+
         </div>
 
-        <div className="flex flex-col pt-5">
+        <div className="flex flex-col pt-5 h-82">
           <h2 className="text-2xl text-white font-medium">Address</h2>
+           
           <img
             src="./i.png"
             alt="Clinic location"
