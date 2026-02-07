@@ -110,7 +110,8 @@ const Navbar = () => {
             key={link.path}
             to={link.path}
             className="font-medium transition-colors hover:text-white flex"
-          >
+            onClick={()=>(setIsOpen(false))}
+        >
             {link.label}
           </Link>
         ))}
