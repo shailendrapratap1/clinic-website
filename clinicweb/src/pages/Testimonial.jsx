@@ -1,6 +1,5 @@
 import React from 'react'
 import { Card } from '../components'
-import { Star } from 'lucide-react'
 
 const Testimonial = () => {
   return (
@@ -19,29 +18,25 @@ const Testimonial = () => {
            <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl h-9 w-13' alt="" />
              <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl h-9 w-13' alt="" />
         <p className='md:pl-5 text-xl font-bold pr-5'>500+ Reviews</p>
-       
-           <Card className='md:w-120 w-80 border border-gray-500 bg-white md:h-60 md:ml-19  md:-mt-50 rounded-xl flex flex-row mt-50 -ml-90  mb-3'>
+      
+           <Card className='md:w-120 w-90 border border-gray-500 bg-white md:h-60 md:ml-19  md:-mt-50 rounded-xl flex flex-row mt-50 -ml-90  mb-3'>
+                           <div className='flex flex-row gap-5'>
                            <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl h-9 w-13 mt-5 ml-3 ' alt="" />
-                            <h2 className='ml-20 -mt-9 text-md font-bold '>john doe</h2>
-                        <p className='ml-40 md:ml-50 md:mb-6'> ⭐ ⭐ ⭐  </p>
-                        <p className='text-gray-500 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatibus tempore dolore nobis praesentium eveniet voluptatem tempora totam eum sequi?</p>
-                         
+                            <h2 className='mt-4 text-md font-bold '>john doe</h2>
+                      
+                        <p className='mt-4 md:pl-40  '> ⭐ ⭐ ⭐ ⭐  </p>
+                      </div>
+                        <div>
+                        <p className='text-gray-500 pt-10 font-medium px-2 py-2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos laudantium voluptates quasi, accusamus, aliquam temporibus facilis at repellendus quisquam eum nam distinctio omnis cum porro facere maiores? Minima voluptatum aspernatur vitae odit </p>
+                         </div>
            </Card>
                     
 
-          
+         
         </div>
      
      </div>
-       {/* <div className='flex flex-row md:flex md:flex-row  ml-20 pt-15 '>
-           <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl  h-9 w-13' alt="" />
-             <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl h-9 w-13' alt="" />
-           <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl h-9 w-13' alt="" />
-           <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl h-9 w-13' alt="" />
-             <img src="./pexels-danxavier-908602.jpg "className='rounded-b-2xl h-9 w-13' alt="" />
-        <p className='pl-5 text-xl font-bold'>500+ Reviews</p>
-
-        </div> */}
+   
     </section>
   )
 }
