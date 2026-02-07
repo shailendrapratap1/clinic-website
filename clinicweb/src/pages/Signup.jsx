@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-
 import { Link, useNavigate } from 'react-router-dom';
-import { Eye, EyeOff, Check, X } from 'lucide-react';
+import {  Check, X } from 'lucide-react';
+import { Button } from '../components';
 
 const Signup = () => {
     const navigate = useNavigate();
@@ -12,8 +12,7 @@ const Signup = () => {
         confirmPassword: ''
     });
     const [error, setError] = useState('');
-    const [showPassword, setShowPassword] = useState(false);
-    const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+
 
 
 
@@ -128,7 +127,7 @@ const Signup = () => {
                 Password
             </label>
             <div className='relative' >
-            <input type={showPassword ? "text" : "password"} 
+            <input type= "password" 
              name="password" id="password"
              value={formData.password}
              onChange={handleChange}
@@ -136,11 +135,7 @@ const Signup = () => {
                            placeholder='......'
                            required
              />
-            <button type='button'
-            onClick={()=> setShowPassword(!showPassword)}
-            className='absolute right-3 top-1/2 transform -translate-y-1/2 text-sky-500 hover:text-sky-200 '>
-{showPassword ? <EyeOff />: <Eye size={20}/> }
-            </button>
+          
     </div>
 
             {formData.password && (
@@ -169,31 +164,25 @@ const Signup = () => {
                         </label>
                         <div className="relative">
                             <input
-                                type={showConfirmPassword ? "text" : "password"}
+                                type='password'
                                 id="confirmPassword"
                                 name="confirmPassword"
                                 value={formData.confirmPassword}
                                 onChange={handleChange}
                                 className="w-full bg-gray-800 border border-gray-700 rounded-md py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors pr-10"
-                                placeholder="••••••••"
+                                placeholder="........"
                                 required
                             />
-                            <button
-                                type="button"
-                                onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-white"
-                            >
-                                {showConfirmPassword ? <EyeOff size={20} /> : <Eye size={20} />}
-                            </button>
+                         
                         </div>
                         {formData.confirmPassword && formData.password !== formData.confirmPassword && (
                             <p className="text-xs text-red-400 mt-1">Passwords do not match</p>
                         )}
                     </div>
 
-                    <button  type="submit" className="w-full justify-center">
+                    <Button  type="submit" className="w-30 justify-center bg-sky-500 md:ml-30 rounded-xl text-md font-bold cursor-pointer">
                         Create Account
-                    </button>
+                    </Button>
                 </form>
 
                 <div className="mt-6 text-center text-sm text-gray-400">
