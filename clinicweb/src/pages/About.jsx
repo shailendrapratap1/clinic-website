@@ -35,7 +35,7 @@ const about = [
 
 const About = () => {
   return (
- <section className='min-h-screen left-0 right-0 bg-linear-to-r from-sky-100 to-sky-300'>
+ <section id='about' className='min-h-screen left-0 right-0 bg-linear-to-r from-sky-100 to-sky-300'>
    <div className=' '>
     <div className='pt-34 '>
     <h2 className='text-gray-900 font-bold  text-3xl mb-10 ml-3 '>Our Consulting Specialists</h2>
