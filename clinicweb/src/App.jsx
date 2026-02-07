@@ -51,6 +51,7 @@ function App() {
         <Route path='/about' element={<AllSections />}/>
     <Route path='/testimonial' element={<AllSections />}/>
     <Route path='/history' element={<AllSections />}/>
+    
     <Route path='/login' element={<Login />}/>
     <Route path='/signup' element={<Signup />}/>
 
