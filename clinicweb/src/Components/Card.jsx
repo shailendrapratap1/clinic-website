@@ -20,7 +20,6 @@ const Card = ({
             src={image}
             alt={title}
             className={`${imageClass} `}
-            // className={imageClass}
           />
         </div>
       )}
