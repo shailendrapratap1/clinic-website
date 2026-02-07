@@ -11,22 +11,22 @@ const about = [
     
 },
 {
-    image:'co.svg',
-    title:'Covid 19-test',
+    image:'he.png',
+    title:'Heart Lungs',
      description: "Dedicated spaces designed for collaboration, discussions, and group projects."
 
     
 },
 {
-    image:'co.svg',
-    title:'Covid 19-test',
+    image:'supp.png',
+    title:'suppliment',
      description: "Dedicated spaces designed for collaboration, discussions, and group projects."
 
     
 },
 {
-    image:'co.svg',
-    title:'Covid 19-test',
+    image:'men.png',
+    title:'Mental Health',
      description: "Dedicated spaces designed for collaboration, discussions, and group projects."
 
     
@@ -45,8 +45,8 @@ const About = () => {
 {
     about.map((about,index)=> (
         <Card
-        className=' ml-5 md:w-80 md:h-60 rounded-xl bg-white text-gray-400 font-serif text-[18px] h-43 px-3 border border-gray-500 hover:bg-blue-400 ' key={index}
-            imgclass='h-6 bg-blue-200 w-7 rounded-md md:mt-5 md:ml-7'
+        className=' ml-2 mr-2 md:w-80 md:h-60 rounded-xl bg-white text-gray-400 font-serif text-[18px] h-43 px-5 border border-gray-500 hover:bg-blue-400 ' key={index}
+            imgclass='h-6 bg-blue-200 w-9 rounded-md md:mt-5 md:ml-7 '
 imageClass='h-5 w-15 rounded-xl mt-3 '
         titleClass=' text-xl font-semibold text-blue-300 '
         descClass='text-black'
