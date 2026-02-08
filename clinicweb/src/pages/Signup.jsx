@@ -81,7 +81,7 @@ const Signup = () => {
     };
  
     return (
-    <div className='min-h-screen flex items-center justify-center bg-linear-to-r from-sky-100 to-sky-300'>
+    <div className='min-h-screen flex items-center justify-center bg-linear-to-r from-sky-100 to-sky-300 pt-10 pb-10'>
         <div className='bg-linear-to-r from-sky-100 to-sky-300 p-8 rounded-lg shadow-lg w-full max-w-md border border-gray-100'>
        <h2 className='text-2xl font-bold text-gray-600 mb-2 text-center'>Create Account</h2>
                        <p className="text-gray-400 text-center mb-6 text-sm">Join us today and get started</p>
@@ -102,13 +102,13 @@ const Signup = () => {
             name= "fullName"
             value={formData.value}
             onChange={handleChange}
-            className='w-full bg-sky-300 text-sm font-medium border border-gray-300 rounded-md text-black'
+            className='w-full border border-gray-300 rounded-md py-2 px-3 text-white'
             placeholder='"john doe'
             required />
         
           </div>
           <div>
-            <label className='block text-gray-800 text-sm font-medium mb-2' htmlFor="email">
+            <label className='block  text-blue-300 text-sm font-medium mb-2' htmlFor="email">
                 Email Address
             </label>
             <input type="email"
@@ -116,14 +116,14 @@ const Signup = () => {
             name="email"
             vlaue={formData.email}
             onChange={handleChange}
-              className='w-full bg-sky-300 text-sm font-medium border border-gray-300 rounded-md text-black'
+              className='w-full border border-gray-300 rounded-md py-2 px-3 text-white'
               placeholder='gfgh@gmail.com'
               required
               />
 
           </div>
           <div>
-            <label className='block  text-sm font-medium mb-2' htmlFor="password">
+            <label className='block text-blue-300 text-sm font-medium mb-2' htmlFor="password">
                 Password
             </label>
             <div className='relative' >
@@ -131,7 +131,7 @@ const Signup = () => {
              name="password" id="password"
              value={formData.password}
              onChange={handleChange}
-                           className='w-full bg-sky-300 text-sm font-medium border border-gray-300 rounded-md text-black'
+                           className='w-full  border border-gray-300 rounded-md py-2 px-3 text-white'
                            placeholder='......'
                            required
              />
@@ -159,7 +159,7 @@ const Signup = () => {
             </div>
   
                     <div>
-                        <label className="block text-gray-400 text-sm font-medium mb-2" htmlFor="confirmPassword">
+                        <label className="block text-blue-300 text-sm font-medium mb-2" htmlFor="confirmPassword">
                             Confirm Password
                         </label>
                         <div className="relative">
@@ -169,7 +169,7 @@ const Signup = () => {
                                 name="confirmPassword"
                                 value={formData.confirmPassword}
                                 onChange={handleChange}
-                                className="w-full bg-gray-800 border border-gray-700 rounded-md py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors pr-10"
+                                className="w-full border  border-gray-300 rounded-md py-2 px-3 text-white "
                                 placeholder="........"
                                 required
                             />
@@ -180,7 +180,7 @@ const Signup = () => {
                         )}
                     </div>
 
-                    <Button  type="submit" className="w-30 justify-center bg-sky-500 md:ml-30 rounded-xl text-md font-bold cursor-pointer">
+                    <Button  type="submit" className="w-40 h-12 justify-center bg-sky-500 md:ml-20 rounded-2xl text-md  font-serif cursor-pointer">
                         Create Account
                     </Button>
                 </form>
