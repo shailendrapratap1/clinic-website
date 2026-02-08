@@ -54,14 +54,14 @@ const Login = () => {
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
-                            className="w-full bg-sky-100 border border-gray-700 rounded-md py-2 px-3 text-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                            className="w-full  border border-gray-700 rounded-md py-2 px-3 text-black "
                             placeholder="u@ple.com"
                             required
                         />
                     </div>
 
                     <div>
-                        <label className="block text-sky-400 text-sm font-medium mb-2" htmlFor="password">
+                        <label className="block text-sm font-medium mb-2" htmlFor="password">
                             Password
                         </label>
                         <div className="relative">
@@ -71,14 +71,14 @@ const Login = () => {
                                 name="password"
                                 value={formData.password}
                                 onChange={handleChange}
-                                className="w-full bg-sky-300 border border-gray-700 rounded-md py-2 px-3 text-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors pr-10"
+                                className="w-full  border border-gray-700 rounded-md py-2 px-3 text-black "
                                 placeholder="password"
                                 required
                             />
                           
                         </div>
                     </div>
-                        <Button type='submit' className='text-gray-200 bg-sky-600 rounded-xl  h-8 w-15 md:ml-35 text-md font-medium cursor-pointer'>
+                        <Button type='submit' className='text-gray-200 bg-sky-600 rounded-xl  h-10 w-25 md:ml-35 text-lg font-bold cursor-pointer  hover:pb-1'>
                        sign In
      </Button>
                    
